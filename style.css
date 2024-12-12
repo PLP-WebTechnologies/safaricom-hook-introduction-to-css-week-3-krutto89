@@ -1,0 +1,41 @@
+/* External CSS */
+body {
+    background-color: #f0f0f0; /* Changing the background color of the webpage */
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Adding hover effect to links */
+a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+/* Basic styling properties */
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+.card h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.card p {
+    font-family: 'Georgia', serif;
+    font-size: 1em;
+    color: #666;
+    text-align: justify;
+}
